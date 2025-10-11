@@ -1,0 +1,158 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2025-10-04 10:20:44
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.3.7-universal.jar%23204!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.7-universal.jar%23204!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23199!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at java.lang.Class.getConstructor0(Class.java:3585) ~[?:?] {re:mixin}
+-- MOD frence --
+Details:
+	Mod File: /workspaces/Origwn/servidor_minecraft/mods/frence-1.0.0.jar
+	Failure message: Frence (frence) has failed to load correctly
+		java.lang.NoSuchMethodException: net.plume.frence.Frence.<init>()
+	Mod Version: 1.0.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.NoSuchMethodException: net.plume.frence.Frence.<init>()
+Stacktrace:
+	at java.lang.Class.getConstructor0(Class.java:3585) ~[?:?] {re:mixin}
+	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23201!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23200!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 17.0.16, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1739511296 bytes (1658 MiB) / 2147483648 bytes (2048 MiB) up to 10737418240 bytes (10240 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7997.99
+	Virtual memory used (MB): 4965.98
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx10G
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar redirector TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		mcef-forge-2.1.6-1.20.1.jar                       |MCEF (Minecraft Chromium Embed|mcef                          |2.1.6-1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.8.2.jar                   |GeckoLib 4                    |geckolib                      |4.8.2               |COMMON_SET|Manifest: NOSIGNATURE
+		msp-1.2.jar                                       |Meulti's Simple Phone         |msp                           |1.2                 |COMMON_SET|Manifest: NOSIGNATURE
+		Locks-Unoffical-forge-1.20.1-1.2.4.jar            |Locks-Unoffical               |locks                         |1.20.1-1.2.4        |COMMON_SET|Manifest: NOSIGNATURE
+		JustEnoughGuns-0.13.2-1.20.1.jar                  |Just Enough Guns              |jeg                           |0.13.2              |COMMON_SET|Manifest: NOSIGNATURE
+		AttributeFix-Forge-1.20.1-21.0.4.jar              |AttributeFix                  |attributefix                  |21.0.4              |COMMON_SET|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		frence-1.0.0.jar                                  |Frence                        |frence                        |1.0.0               |ERROR     |Manifest: NOSIGNATURE
+		connectivity-1.20.1-7.2.jar                       |Connectivity Mod              |connectivity                  |1.20.1-7.2          |COMMON_SET|Manifest: NOSIGNATURE
+		CasinoCraft_1.20.1_v25.jar                        |CasinoCraft                   |casinocraft                   |25.0                |COMMON_SET|Manifest: NOSIGNATURE
+		sdm_ui_lib-forge-1.20.1-1.8.3.jar                 |SDM UI Lib                    |sdm_ui_lib                    |1.20.1-1.8.3        |COMMON_SET|Manifest: NOSIGNATURE
+		journeymap-1.20.1-5.10.3-forge.jar                |Journeymap                    |journeymap                    |5.10.3              |COMMON_SET|Manifest: NOSIGNATURE
+		modernfix-forge-5.24.4+mc1.20.1 (1).jar           |ModernFix                     |modernfix                     |5.24.4+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		BRCC 1.0.5 1.16.5-1.20.1.jar                      |Brazilian Craft Cars          |brcc                          |24                  |COMMON_SET|Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		Lucky77_1.20.1_v04.jar                            |Lucky77                       |lucky77                       |4.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.20.1-20.2.13.jar                |Bookshelf                     |bookshelf                     |20.2.13             |COMMON_SET|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		starlight-1.1.2+forge.1cda73c.jar                 |Starlight                     |starlight                     |1.1.2+forge.1cda73c |COMMON_SET|Manifest: NOSIGNATURE
+		Immersive Vehicles-1.20.1-22.18.0-pre.jar         |Immersive Vehicles (formerly M|mts                           |0.0NONE             |COMMON_SET|Manifest: NOSIGNATURE
+		Saros-Road-Signs-Mod-1.20.1-4.3.jar               |Saros Road signs mod          |saros_road_signs_mod          |4.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.7-universal.jar                 |Forge                         |forge                         |47.3.7              |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		chloride-FORGE-mc1.20.1-v1.7.2.jar                |Chloride                      |chloride                      |1.7.2               |COMMON_SET|Manifest: NOSIGNATURE
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		modernfurniture-e5-x128-forge-1.20.1.jar          |ModernFurniture               |modernfurniture               |0.5.0               |COMMON_SET|Manifest: NOSIGNATURE
+		smoothchunk-1.20.1-4.1.jar                        |Smoothchunk mod               |smoothchunk                   |1.20.1-4.1          |COMMON_SET|Manifest: NOSIGNATURE
+		Cuffed-1.20.1-1.3.9.jar                           |Cuffed                        |cuffed                        |1.3.9               |COMMON_SET|Manifest: NOSIGNATURE
+		CullLessLeaves-Reforged-1.20.1-1.0.5.jar          |Cull Less Leaves Reforged     |culllessleaves                |1.20.1-1.0.5        |COMMON_SET|Manifest: NOSIGNATURE
+		ItemProductionLib-1.20.1-1.0.2a-all.jar           |Item Production Lib           |itemproductionlib             |1.0.2a              |COMMON_SET|Manifest: NOSIGNATURE
+		fcl-20.33.jar                                     |Fexcraft Common Library       |fcl                           |20.33               |COMMON_SET|Manifest: NOSIGNATURE
+		PassiveSkillTree-1.20.1-BETA-0.6.14a-all.jar      |Passive Skill Tree            |skilltree                     |0.6.14a             |COMMON_SET|Manifest: NOSIGNATURE
+		betterfpsdist-1.20.1-6.0.jar                      |betterfpsdist mod             |betterfpsdist                 |1.20.1-6.0          |COMMON_SET|Manifest: NOSIGNATURE
+		Saros-Money-Mod.1.20.1-3.5.5.jar                  |Saro´s Money Mod              |saros__money_mod              |3.5.5               |COMMON_SET|Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1 (1).jar                |Curios API                    |curios                        |5.14.1+1.20.1       |COMMON_SET|Manifest: NOSIGNATURE
+		lexiconfig-forge-1.4.18-1.jar                     |Lexiconfig                    |lexiconfig                    |1.4.18-1            |COMMON_SET|Manifest: NOSIGNATURE
+		mine-chromatic-addon-0.1.0.jar                    |Mine Chromatic Addon          |mine_chromatic                |0.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		devices-forge-0.8.4.jar                           |Devices Mod                   |devices                       |0.8.4               |COMMON_SET|Manifest: NOSIGNATURE
+		inv_view_forge-2.1.0-1.20.1.jar                   |InvView_Forge                 |inv_view_forge                |2.1.0-1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		noisium-forge-2.3.0+mc1.20-1.20.1.jar             |Noisium                       |noisium                       |2.3.0+mc1.20-1.20.1 |COMMON_SET|Manifest: NOSIGNATURE
+		CustomNPCs-1.20.1-GBPort-Unofficial-20250830.jar  |Custom NPCs                   |customnpcs                    |1.20.1.20250830     |COMMON_SET|Manifest: NOSIGNATURE
+		ImmediatelyFast-Forge-1.5.2+1.20.4.jar            |ImmediatelyFast               |immediatelyfast               |1.5.2+1.20.4        |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		ftb-library-forge-2001.2.10.jar                   |FTB Library                   |ftblibrary                    |2001.2.10           |COMMON_SET|Manifest: NOSIGNATURE
+		SDMEconomy-1.20.1-forge-2.2.0.jar                 |SDMEconomy                    |sdmeconomy                    |2.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		sdm-core-forge-2001.3.0.jar                       |SDM Core                      |sdmcore                       |2001.3.0            |COMMON_SET|Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge (1).jar                   |Ferrite Core                  |ferritecore                   |6.0.1               |COMMON_SET|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		cupboard-1.20.1-2.7.jar                           |Cupboard utilities            |cupboard                      |1.20.1-2.7          |COMMON_SET|Manifest: NOSIGNATURE
+		Saros-Road-Blocks-Mod-1.20.1-4.0.jar              |Saro´s Road Blocks Mod        |saros_road_blocks_mod         |4.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		framework-forge-1.20.1-0.7.15 (1).jar             |Framework                     |framework                     |0.7.15              |COMMON_SET|Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		Camerapture-1.10.4+mc1.20.1-forge.jar             |Camerapture                   |camerapture                   |1.10.4              |COMMON_SET|Manifest: NOSIGNATURE
+		SDMShop-forge-1.20.1-7.1.2.jar                    |SDMShop                       |sdmshop                       |1.20.1-7.1.2        |COMMON_SET|Manifest: NOSIGNATURE
+		Lazr's Lib-1.20-1.1.1.jar                         |Lazr's Lib                    |lazrslib                      |1.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: f55edaa8-378e-4c8b-ab36-652292d25fc7
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.7

@@ -1,0 +1,17 @@
+{
+	id: "74d93ad2-6637-49cc-83f7-345b08f3626a"
+	type: "party"
+	owner: "52bfc853-be62-4705-98be-de5f3dbd921c"
+	ranks: {
+		52bfc853-be62-4705-98be-de5f3dbd921c: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "NOCOM"
+		"ftbteams:description": "JUSTICE POUR TOUT LE MONDE"
+		"ftbteams:color": "#FFC459"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1759061865091L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Imranack\"}]}" }]
+	extra: { }
+}

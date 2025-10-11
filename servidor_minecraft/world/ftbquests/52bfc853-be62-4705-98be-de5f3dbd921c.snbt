@@ -1,0 +1,16 @@
+{
+	version: 1
+	uuid: "52bfc853be62470598bede5f3dbd921c"
+	name: "Imranack#52bfc853"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		52bfc853be62470598bede5f3dbd921c: {
+			can_edit: 1b
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 18b,
+                "id": "minecraft:raw_copper",
+                "Count": 1b
+            }
+        ]
+    },
+    "TraderIgnoreDamage": 0b,
+    "TraderIgnoreNBT": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            }
+        ]
+    }
+}

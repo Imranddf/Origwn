@@ -1,0 +1,126 @@
+{
+    "bodyColor": 0,
+    "eyesColor": 0,
+    "ItemGiversList": [
+    ],
+    "body": 0,
+    "isActive": 0b,
+    "DialogData": [
+        {
+            "Dialog": 5
+        },
+        {
+            "Dialog": 6
+        },
+        {
+            "Dialog": 7
+        },
+        {
+            "Dialog": 8
+        },
+        {
+            "Dialog": 9
+        },
+        {
+            "Dialog": 10
+        },
+        {
+            "Dialog": 11
+        },
+        {
+            "Dialog": 12
+        },
+        {
+            "Dialog": 13
+        },
+        {
+            "Dialog": 14
+        },
+        {
+            "Dialog": 15
+        },
+        {
+            "Dialog": 16
+        },
+        {
+            "Dialog": 17
+        },
+        {
+            "Dialog": 18
+        },
+        {
+            "Dialog": 19
+        },
+        {
+            "Dialog": 20
+        },
+        {
+            "Dialog": 21
+        },
+        {
+            "Dialog": 22
+        },
+        {
+            "Dialog": 23
+        },
+        {
+            "Dialog": 24
+        },
+        {
+            "Dialog": 25
+        },
+        {
+            "Dialog": 26
+        },
+        {
+            "Dialog": 27
+        },
+        {
+            "Dialog": 28
+        },
+        {
+            "Dialog": 29
+        },
+        {
+            "Dialog": 30
+        },
+        {
+            "Dialog": 31
+        }
+    ],
+    "leg": 0,
+    "hair": 0,
+    "MailData": [
+    ],
+    "PlayerName": "Imranack",
+    "hairColor": 0,
+    "UUID": "45c9e1f1-d058-34e4-b7ab-09049f609783",
+    "ScriptStoreddata": {
+    },
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "jacket": 0,
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "PlayerCompanionId": 0,
+    "shoes": 0,
+    "ItemGiverChained": [
+    ],
+    "isMale": 0b,
+    "face": 0,
+    "peculiarities": [I;]
+}
