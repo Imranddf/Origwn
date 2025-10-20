@@ -1,0 +1,96 @@
+{
+    "bodyColor": 0,
+    "eyesColor": 0,
+    "ItemGiversList": [
+    ],
+    "body": 0,
+    "isActive": 0b,
+    "DialogData": [
+        {
+            "Dialog": 5
+        },
+        {
+            "Dialog": 6
+        },
+        {
+            "Dialog": 7
+        },
+        {
+            "Dialog": 8
+        },
+        {
+            "Dialog": 10
+        },
+        {
+            "Dialog": 42
+        },
+        {
+            "Dialog": 11
+        },
+        {
+            "Dialog": 43
+        },
+        {
+            "Dialog": 12
+        },
+        {
+            "Dialog": 44
+        },
+        {
+            "Dialog": 13
+        },
+        {
+            "Dialog": 14
+        },
+        {
+            "Dialog": 22
+        },
+        {
+            "Dialog": 27
+        },
+        {
+            "Dialog": 29
+        },
+        {
+            "Dialog": 30
+        },
+        {
+            "Dialog": 31
+        }
+    ],
+    "leg": 0,
+    "hair": 0,
+    "MailData": [
+    ],
+    "PlayerName": "BBDE93",
+    "hairColor": 0,
+    "UUID": "1b1be31d-9be0-329d-ad6d-1d1717cfb163",
+    "ScriptStoreddata": {
+    },
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "jacket": 0,
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "PlayerCompanionId": 0,
+    "shoes": 0,
+    "ItemGiverChained": [
+    ],
+    "isMale": 0b,
+    "face": 0,
+    "peculiarities": [I;]
+}

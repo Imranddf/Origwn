@@ -1,0 +1,900 @@
+[20Oct2025 10:24:32.858] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Oct2025 10:24:32.864] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[20Oct2025 10:24:33.489] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Oct2025 10:24:33.494] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[20Oct2025 10:24:33.546] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Origwn/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Oct2025 10:24:33.817] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Origwn/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 10:24:33.818] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Origwn/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 10:24:33.819] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Origwn/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 10:24:33.821] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Origwn/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Oct2025 10:24:34.038] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[20Oct2025 10:24:35.880] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Oct2025 10:24:35.905] [main/ERROR] [mixin/]: Mixin config fcl.mixins.json does not specify "minVersion" property
+[20Oct2025 10:24:36.015] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[20Oct2025 10:24:36.017] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [mcinterface1201.mixin.MixinConnector]
+[20Oct2025 10:24:36.017] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Oct2025 10:24:36.138] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 96 options available, 0 override(s) found
+[20Oct2025 10:24:36.138] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[20Oct2025 10:24:36.154] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[20Oct2025 10:24:36.178] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[20Oct2025 10:24:36.274] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[20Oct2025 10:24:36.892] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/TileTicker (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.TileTicker)
+[20Oct2025 10:24:36.910] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[20Oct2025 10:24:36.910] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[20Oct2025 10:24:36.912] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[20Oct2025 10:24:36.912] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
+[20Oct2025 10:24:36.914] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
+[20Oct2025 10:24:36.914] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
+[20Oct2025 10:24:36.916] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[20Oct2025 10:24:36.916] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[20Oct2025 10:24:37.467] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Oct2025 10:24:37.641] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[20Oct2025 10:24:37.667] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[20Oct2025 10:24:37.997] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.493 s after launch)
+[20Oct2025 10:24:38.077] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[20Oct2025 10:24:38.092] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[20Oct2025 10:24:38.148] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Oct2025 10:24:38.149] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Oct2025 10:24:38.247] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Oct2025 10:24:38.247] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Oct2025 10:24:39.310] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[20Oct2025 10:24:39.313] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[20Oct2025 10:24:39.314] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[20Oct2025 10:24:39.386] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[20Oct2025 10:24:39.388] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[20Oct2025 10:24:39.394] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[20Oct2025 10:24:39.395] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[20Oct2025 10:24:39.395] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[20Oct2025 10:24:39.397] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[20Oct2025 10:24:39.398] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[20Oct2025 10:24:39.399] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[20Oct2025 10:24:39.399] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[20Oct2025 10:24:39.403] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[20Oct2025 10:24:39.404] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[20Oct2025 10:24:39.405] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[20Oct2025 10:24:39.406] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[20Oct2025 10:24:39.407] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[20Oct2025 10:24:39.467] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[20Oct2025 10:24:39.468] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[20Oct2025 10:24:39.469] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[20Oct2025 10:24:39.470] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[20Oct2025 10:24:39.470] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[20Oct2025 10:24:39.471] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[20Oct2025 10:24:39.472] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[20Oct2025 10:24:39.473] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[20Oct2025 10:24:39.473] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[20Oct2025 10:24:39.828] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[20Oct2025 10:24:39.911] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[20Oct2025 10:24:39.913] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[20Oct2025 10:24:39.921] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1920 milliseconds
+[20Oct2025 10:24:39.995] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[20Oct2025 10:24:40.090] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[20Oct2025 10:24:40.092] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[20Oct2025 10:24:40.245] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[20Oct2025 10:24:40.250] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[20Oct2025 10:24:40.499] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[20Oct2025 10:24:40.558] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[20Oct2025 10:24:40.579] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[20Oct2025 10:24:40.587] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[20Oct2025 10:24:40.589] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[20Oct2025 10:24:40.624] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[20Oct2025 10:24:40.858] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[20Oct2025 10:24:41.006] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[20Oct2025 10:24:41.022] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[20Oct2025 10:24:41.050] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[20Oct2025 10:24:41.270] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[20Oct2025 10:24:41.465] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[20Oct2025 10:24:41.466] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[20Oct2025 10:24:41.693] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[20Oct2025 10:24:41.693] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[20Oct2025 10:24:41.694] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[20Oct2025 10:24:41.697] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[20Oct2025 10:24:41.699] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[20Oct2025 10:24:41.738] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[20Oct2025 10:24:41.779] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[20Oct2025 10:24:41.826] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[20Oct2025 10:24:41.827] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[20Oct2025 10:24:41.827] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[20Oct2025 10:24:41.857] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[20Oct2025 10:24:41.859] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[20Oct2025 10:24:41.886] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[20Oct2025 10:24:41.896] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[20Oct2025 10:24:41.939] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[20Oct2025 10:24:41.952] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[20Oct2025 10:24:42.103] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[20Oct2025 10:24:42.188] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[20Oct2025 10:24:42.241] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[20Oct2025 10:24:42.250] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[20Oct2025 10:24:42.379] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[20Oct2025 10:24:42.383] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[20Oct2025 10:24:42.385] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[20Oct2025 10:24:42.400] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[20Oct2025 10:24:42.403] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[20Oct2025 10:24:42.406] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[20Oct2025 10:24:42.424] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[20Oct2025 10:24:42.470] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[20Oct2025 10:24:42.473] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[20Oct2025 10:24:42.555] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[20Oct2025 10:24:42.556] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[20Oct2025 10:24:42.557] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[20Oct2025 10:24:42.558] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[20Oct2025 10:24:42.559] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[20Oct2025 10:24:42.563] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[20Oct2025 10:24:42.564] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[20Oct2025 10:24:42.564] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[20Oct2025 10:24:42.568] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[20Oct2025 10:24:42.575] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[20Oct2025 10:24:42.589] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[20Oct2025 10:24:42.591] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[20Oct2025 10:24:42.608] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[20Oct2025 10:24:42.617] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[20Oct2025 10:24:42.620] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[20Oct2025 10:24:42.880] [modloading-worker-0/INFO] [lazrslib/]: Built config 'cuffed' Successfully!
+[20Oct2025 10:24:42.926] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/util/Easings
+[20Oct2025 10:24:42.930] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/screen/ButtonAlignment
+[20Oct2025 10:24:42.932] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/DotRenderMode
+[20Oct2025 10:24:42.933] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/SwayType
+[20Oct2025 10:24:42.953] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[20Oct2025 10:24:42.957] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[20Oct2025 10:24:42.990] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[20Oct2025 10:24:43.005] [modloading-worker-0/INFO] [cuffed/]: Registered restraints
+[20Oct2025 10:24:43.075] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[20Oct2025 10:24:43.078] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/CuriosConfig$KeepCurios
+[20Oct2025 10:24:43.084] [modloading-worker-0/INFO] [Lexiconfig/]: Beginning lexicon shelving!
+[20Oct2025 10:24:43.104] [modloading-worker-0/INFO] [Lexiconfig/]: Shelved lexicon com.codinglitch.lexiconfig.LexiconfigConfig@1e49d3c3!
+[20Oct2025 10:24:43.139] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[20Oct2025 10:24:43.150] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[20Oct2025 10:24:43.161] [modloading-worker-0/INFO] [Devices Mod/]: Creating Creative Tab...
+[20Oct2025 10:24:43.203] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Initializing registration handler and mod config.
+[20Oct2025 10:24:43.284] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[20Oct2025 10:24:43.285] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering common setup handler, and load complete handler.
+[20Oct2025 10:24:43.285] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering server setup handler.
+[20Oct2025 10:24:43.287] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering the reload listener.
+[20Oct2025 10:24:43.288] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[20Oct2025 10:24:43.287] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering mod class to forge events.
+[20Oct2025 10:24:43.296] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[20Oct2025 10:24:43.297] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MoverType
+[20Oct2025 10:24:43.298] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[20Oct2025 10:24:43.306] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Rotation
+[20Oct2025 10:24:43.309] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Mirror
+[20Oct2025 10:24:43.310] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[20Oct2025 10:24:43.340] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/PhysicalSide
+[20Oct2025 10:24:43.344] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.347] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.347] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.347] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.348] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.348] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.348] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[20Oct2025 10:24:43.351] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/event/IEventHelper$Ordering
+[20Oct2025 10:24:43.516] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock$Action
+[20Oct2025 10:24:43.545] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[20Oct2025 10:24:43.557] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Oct2025 10:24:43.562] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[20Oct2025 10:24:43.595] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[20Oct2025 10:24:43.607] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONItem$ItemComponentType
+[20Oct2025 10:24:43.732] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Welcome to MTS VERSION: 22.17.0
+[20Oct2025 10:24:43.770] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packloading/PackResourceLoader$ItemClassification
+[20Oct2025 10:24:43.773] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/SCItemGroup
+[20Oct2025 10:24:43.790] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$PartType
+[20Oct2025 10:24:43.793] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONAnimationDefinition$AnimationComponentType
+[20Oct2025 10:24:43.794] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONAnimationDefinition$AnimationEasingType
+[20Oct2025 10:24:43.799] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$EngineType
+[20Oct2025 10:24:43.806] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONConfigSettings$FuelDefaults
+[20Oct2025 10:24:43.810] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/blocks/components/ABlockBase$BlockMaterial
+[20Oct2025 10:24:43.816] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$LockOnType
+[20Oct2025 10:24:43.817] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$TargetType
+[20Oct2025 10:24:43.822] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$InteractableComponentType
+[20Oct2025 10:24:43.823] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$CrafterComponentType
+[20Oct2025 10:24:43.824] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$EffectorComponentType
+[20Oct2025 10:24:43.834] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPartDefinition$JSONGroundDevicePosition
+[20Oct2025 10:24:43.838] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPotionEffect$PotionDefaults
+[20Oct2025 10:24:43.843] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONParticle$ParticleType
+[20Oct2025 10:24:43.843] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONParticle$ParticleSpawningOrientation
+[20Oct2025 10:24:43.847] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONParticle$ParticleRenderingOrientation
+[20Oct2025 10:24:43.854] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONCollisionGroup$CollisionType
+[20Oct2025 10:24:43.857] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONAction$ActionType
+[20Oct2025 10:24:43.858] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/network/RoadPlannerPackets$C2SClick$Action
+[20Oct2025 10:24:43.870] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONRendering$ModelType
+[20Oct2025 10:24:43.899] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/platform/services/IPlatformHelper$Platform
+[20Oct2025 10:24:43.899] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Oct2025 10:24:43.900] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Oct2025 10:24:43.911] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[20Oct2025 10:24:43.912] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packloading/PackResourceLoader$ResourceType
+[20Oct2025 10:24:43.913] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packloading/PackResourceLoader$PackStructure
+[20Oct2025 10:24:43.918] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/rendering/RenderableVertices$BoxOffset
+[20Oct2025 10:24:43.923] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemDisplayContext
+[20Oct2025 10:24:43.931] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONDecor$DecorComponentType
+[20Oct2025 10:24:43.980] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPanel$SpecialComponent
+[20Oct2025 10:24:43.982] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPanel$ActionType
+[20Oct2025 10:24:44.541] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano found with no faces defined at line: 43211 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[20Oct2025 10:24:44.558] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano.001 found with no faces defined at line: 69512 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[20Oct2025 10:24:44.558] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano.002 found with no faces defined at line: 69513 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[20Oct2025 10:24:44.559] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano.003 found with no faces defined at line: 69514 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[20Oct2025 10:24:44.622] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Círculo found with no faces defined at line: 76462 in: /assets/brcc/objmodels/vehicles/cars/opala.obj
+[20Oct2025 10:24:45.018] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object translucent_backup000 found with no faces defined at line: 58134 in: /assets/brcc/objmodels/vehicles/cars/uno.obj
+[20Oct2025 10:24:45.018] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object translucent_brakel found with no faces defined at line: 58135 in: /assets/brcc/objmodels/vehicles/cars/uno.obj
+[20Oct2025 10:24:45.306] [modloading-worker-0/ERROR] [mts/]: MTSERROR: ConfigSystem failed to save modified config files.  Report to the mod author!
+[20Oct2025 10:24:45.307] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Cannot invoke "java.io.File.toPath()" because "minecrafttransportsimulator.systems.ConfigSystem.clientFile" is null
+[20Oct2025 10:24:45.512] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[20Oct2025 10:24:45.522] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageScaling
+[20Oct2025 10:24:45.523] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageEffects
+[20Oct2025 10:24:45.524] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DeathMessageType
+[20Oct2025 10:24:45.963] [main/INFO] [cuffed/]: Registering Capabilities for Cuffed
+[20Oct2025 10:24:46.371] [main/INFO] [cuffed/]: Registering sound for Cuffed
+[20Oct2025 10:24:46.377] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/SCSounds
+[20Oct2025 10:24:46.410] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/blocks/base/PosterType
+[20Oct2025 10:24:46.551] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blocks/KeypadBarrelBlock$LidFacing
+[20Oct2025 10:24:46.728] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/ComputerBlock$Type
+[20Oct2025 10:24:46.729] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/ModDeviceTypes
+[20Oct2025 10:24:46.737] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/MacMaxXBlockPart$Part
+[20Oct2025 10:24:46.773] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/OfficeChairBlock$Type
+[20Oct2025 10:24:46.831] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/block/AsphaltBlock$Variant
+[20Oct2025 10:24:46.832] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/block/AsphaltBlock$TextureVariant
+[20Oct2025 10:24:46.840] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/block/SidewalkBlock$Variant
+[20Oct2025 10:24:46.923] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/ModuleType
+[20Oct2025 10:24:46.926] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/PageGroup
+[20Oct2025 10:24:47.041] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/enchantment/GunEnchantment$Type
+[20Oct2025 10:24:47.157] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[20Oct2025 10:24:47.157] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[20Oct2025 10:24:47.681] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/impl/commands/CommandHand$OutputType
+[20Oct2025 10:24:47.714] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/entity/animation/ArmRestraintAnimationFlags
+[20Oct2025 10:24:47.717] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/entity/animation/LegRestraintAnimationFlags
+[20Oct2025 10:24:47.718] [main/INFO] [cuffed/]: Cuffed has found a foreign restraint registry, registering with Restraint API
+[20Oct2025 10:24:47.719] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/restraints/base/RestraintType
+[20Oct2025 10:24:47.730] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[20Oct2025 10:24:47.766] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.lazrproductions.cuffed.entity.WeightedAnchorEntity
+[20Oct2025 10:24:47.773] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/Difficulty
+[20Oct2025 10:24:47.789] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[20Oct2025 10:24:47.797] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/SpawnPlacementRegisterEvent$Operation
+[20Oct2025 10:24:48.016] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Origwn/servidor_minecraft/config/eyemod-common.toml is not correct. Correcting
+[20Oct2025 10:24:48.017] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawnLocations was corrected from [] to its default, []. 
+[20Oct2025 10:24:48.181] [modloading-worker-0/INFO] [cuffed/]: Running commmon setup for Cuffed
+[20Oct2025 10:24:48.186] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[20Oct2025 10:24:48.215] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/client/OpenScreen$DataType
+[20Oct2025 10:24:48.217] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/network/server/sync/SPacketSyncStack$HandlerType
+[20Oct2025 10:24:48.219] [modloading-worker-0/INFO] [Devices Mod/]: Doing some common setup.
+[20Oct2025 10:24:48.219] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/api/type/capability/ICurio$DropRule
+[20Oct2025 10:24:48.224] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/2f18a26b1e0c3f048a3d73a822f8669e
+[20Oct2025 10:24:48.225] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/b45afe52425036fd91fbe736d62d8686
+[20Oct2025 10:24:48.225] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/e2a6a8b6270d3c338a30c4774f5aadc2
+[20Oct2025 10:24:48.227] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/d86b1a6540e83487a1a0a6d75a9e9e85
+[20Oct2025 10:24:48.228] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/68177ab5333a3225896c4373707ce286
+[20Oct2025 10:24:48.229] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/6fcc830bcdc33ed8bfb4a9b5c4fa3f93
+[20Oct2025 10:24:48.233] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/a17f7903c43c3e86997b30403506145b
+[20Oct2025 10:24:48.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/678b9b9b076c3ab19dbff4b7fd22a419
+[20Oct2025 10:24:48.241] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/RemoteControlMine$Action
+[20Oct2025 10:24:48.247] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'update_application_data'
+[20Oct2025 10:24:48.249] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'print'
+[20Oct2025 10:24:48.250] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'update_system_data'
+[20Oct2025 10:24:48.254] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'connect'
+[20Oct2025 10:24:48.255] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'ping'
+[20Oct2025 10:24:48.256] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_network_devices'
+[20Oct2025 10:24:48.259] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/StandingOrWallType
+[20Oct2025 10:24:48.260] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'send_action'
+[20Oct2025 10:24:48.262] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blockentities/BlockChangeDetectorBlockEntity$DetectionMode
+[20Oct2025 10:24:48.262] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_file_system'
+[20Oct2025 10:24:48.265] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumGuiType
+[20Oct2025 10:24:48.266] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_files'
+[20Oct2025 10:24:48.267] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_folder_structure'
+[20Oct2025 10:24:48.268] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_main_drive'
+[20Oct2025 10:24:48.272] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/SyncProjector$DataType
+[20Oct2025 10:24:48.273] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'install_app'
+[20Oct2025 10:24:48.275] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blockentities/RiftStabilizerBlockEntity$TeleportationType
+[20Oct2025 10:24:48.277] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'update_inbox'
+[20Oct2025 10:24:48.279] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting me/chrr/camerapture/net/ExtraCodecs
+[20Oct2025 10:24:48.279] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/SyncSSSSettingsOnServer$DataType
+[20Oct2025 10:24:48.279] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'send_email'
+[20Oct2025 10:24:48.282] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'check_email_account'
+[20Oct2025 10:24:48.282] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'register_email_account'
+[20Oct2025 10:24:48.283] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'delete_email'
+[20Oct2025 10:24:48.284] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'view_email'
+[20Oct2025 10:24:48.284] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'minebay_add_auction'
+[20Oct2025 10:24:48.285] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'minebay_get_auctions'
+[20Oct2025 10:24:48.288] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'minebay_buy_item'
+[20Oct2025 10:24:48.288] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_deposit'
+[20Oct2025 10:24:48.289] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_withdraw'
+[20Oct2025 10:24:48.291] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_get_balance'
+[20Oct2025 10:24:48.296] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_pay'
+[20Oct2025 10:24:48.296] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_add'
+[20Oct2025 10:24:48.301] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_remove'
+[20Oct2025 10:24:48.305] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'notification_test'
+[20Oct2025 10:24:48.317] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumCompanionTalent
+[20Oct2025 10:24:48.332] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumMenuType
+[20Oct2025 10:24:48.345] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumCompanionStage
+[20Oct2025 10:24:48.349] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumPlayerData
+[20Oct2025 10:24:48.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[20Oct2025 10:24:48.493] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TagsUpdatedEvent$UpdateCause
+[20Oct2025 10:24:48.497] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/ProjectileImpactEvent$ImpactResult
+[20Oct2025 10:24:48.498] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/living/LivingChangeTargetEvent$LivingTargetType
+[20Oct2025 10:24:48.501] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/AdvancementEvent$AdvancementProgressEvent$ProgressType
+[20Oct2025 10:24:48.504] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action
+[20Oct2025 10:24:48.508] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/NoteBlockEvent$Note
+[20Oct2025 10:24:48.509] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/NoteBlockEvent$Octave
+[20Oct2025 10:24:48.509] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/PistonEvent$PistonMoveType
+[20Oct2025 10:24:48.516] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameType
+[20Oct2025 10:24:48.561] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[20Oct2025 10:24:48.589] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/network/MessageDirection
+[20Oct2025 10:24:48.614] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/sync/SyncedDataKey$SyncMode
+[20Oct2025 10:24:48.644] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[20Oct2025 10:24:48.644] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[20Oct2025 10:24:48.644] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[20Oct2025 10:24:48.644] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[20Oct2025 10:24:48.652] [main/FATAL] [ModernFix/]: Redirector 5.x is detected, it is known to cause extremely hard-to-debug issues in other mods
+[20Oct2025 10:24:48.693] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadsignsmod/packs/SignDefinition$Shape
+[20Oct2025 10:24:48.701] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[20Oct2025 10:24:48.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[20Oct2025 10:24:48.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[20Oct2025 10:24:48.813] [modloading-worker-0/INFO] [Devices Mod/]: Doing some server setup.
+[20Oct2025 10:24:49.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[20Oct2025 10:24:49.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[20Oct2025 10:24:49.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[20Oct2025 10:24:49.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Oct2025 10:24:49.117] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/codinglitch/lexiconfig/LexiconfigApi$EventType
+[20Oct2025 10:24:49.117] [modloading-worker-0/INFO] [Devices Mod/]: Doing some load complete handling.
+[20Oct2025 10:24:49.119] [modloading-worker-0/INFO] [Lexiconfig/]: Cataloging lexicon com.codinglitch.lexiconfig.LexiconfigConfig@1e49d3c3!
+[20Oct2025 10:24:49.120] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 19 compatible attributes.
+[20Oct2025 10:24:49.120] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/codinglitch/lexiconfig/LexiconfigApi$Location
+[20Oct2025 10:24:49.121] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/codinglitch/lexiconfig/LexiconfigApi$Extension
+[20Oct2025 10:24:49.122] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:blocking' does not belong to a known attribute. This entry will be ignored.
+[20Oct2025 10:24:49.122] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:evasion' does not belong to a known attribute. This entry will be ignored.
+[20Oct2025 10:24:49.123] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:stealth' does not belong to a known attribute. This entry will be ignored.
+[20Oct2025 10:24:49.123] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:regeneration' does not belong to a known attribute. This entry will be ignored.
+[20Oct2025 10:24:49.123] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:exp_per_minute' does not belong to a known attribute. This entry will be ignored.
+[20Oct2025 10:24:49.123] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 24 values from config.
+[20Oct2025 10:24:49.129] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 24 entries.
+[20Oct2025 10:24:49.129] [modloading-worker-0/INFO] [Lexiconfig/]: Lexiconfig cataloging completed!
+[20Oct2025 10:24:49.130] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 24 attributes.
+[20Oct2025 10:24:49.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[20Oct2025 10:24:49.304] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/embeddedt/modernfix/util/BakeReason
+[20Oct2025 10:24:49.647] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 2 warnings
+[20Oct2025 10:24:49.650] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.redirector_installed
+[20Oct2025 10:24:49.651] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.perf_mod_warning
+[20Oct2025 10:24:49.671] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Oct2025 10:24:49.957] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$ValueResult
+[20Oct2025 10:24:49.958] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$EntryResult
+[20Oct2025 10:24:49.982] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixTypes
+[20Oct2025 10:24:50.002] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Origwn/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[20Oct2025 10:24:50.002] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Origwn/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[20Oct2025 10:24:50.045] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[20Oct2025 10:24:50.046] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/PackCompatibility
+[20Oct2025 10:24:50.091] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/RegistryLayer
+[20Oct2025 10:24:50.451] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[20Oct2025 10:24:50.488] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[20Oct2025 10:24:50.782] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty
+[20Oct2025 10:24:50.809] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[20Oct2025 10:24:50.816] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/CommandBuildContext$MissingTagAccessPolicy
+[20Oct2025 10:24:50.914] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/OctahedralGroup
+[20Oct2025 10:24:50.918] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/SymmetricGroup3
+[20Oct2025 10:24:51.035] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ClickEvent$Action
+[20Oct2025 10:24:51.144] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/commands/ConvertCommand$ConversionMode
+[20Oct2025 10:24:51.292] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[20Oct2025 10:24:51.536] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource
+[20Oct2025 10:24:51.538] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/modifier/type/StatType
+[20Oct2025 10:24:51.541] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy
+[20Oct2025 10:24:51.554] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[20Oct2025 10:24:51.557] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[20Oct2025 10:24:51.557] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[20Oct2025 10:24:51.558] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[20Oct2025 10:24:51.559] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[20Oct2025 10:24:51.560] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[20Oct2025 10:24:51.561] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[20Oct2025 10:24:51.561] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[20Oct2025 10:24:51.562] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[20Oct2025 10:24:51.563] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[20Oct2025 10:24:51.563] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[20Oct2025 10:24:51.564] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[20Oct2025 10:24:51.565] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[20Oct2025 10:24:51.566] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[20Oct2025 10:24:51.566] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[20Oct2025 10:24:51.568] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[20Oct2025 10:24:51.570] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[20Oct2025 10:24:51.572] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[20Oct2025 10:24:51.573] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[20Oct2025 10:24:51.574] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[20Oct2025 10:24:51.574] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[20Oct2025 10:24:51.575] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[20Oct2025 10:24:51.576] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[20Oct2025 10:24:51.579] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[20Oct2025 10:24:51.580] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[20Oct2025 10:24:51.581] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[20Oct2025 10:24:51.581] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[20Oct2025 10:24:51.582] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[20Oct2025 10:24:51.583] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[20Oct2025 10:24:51.586] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[20Oct2025 10:24:51.588] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[20Oct2025 10:24:51.589] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[20Oct2025 10:24:51.590] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[20Oct2025 10:24:51.590] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[20Oct2025 10:24:51.594] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[20Oct2025 10:24:51.597] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[20Oct2025 10:24:51.598] [Worker-Main-3/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[20Oct2025 10:24:51.698] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemStack$TooltipPart
+[20Oct2025 10:24:51.713] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/axolotl/Axolotl$Variant
+[20Oct2025 10:24:51.714] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Fox$Type
+[20Oct2025 10:24:51.715] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/MushroomCow$MushroomType
+[20Oct2025 10:24:51.717] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Rabbit$Variant
+[20Oct2025 10:24:51.718] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Variant
+[20Oct2025 10:24:51.719] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Llama$Variant
+[20Oct2025 10:24:51.720] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Parrot$Variant
+[20Oct2025 10:24:51.722] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Pattern
+[20Oct2025 10:24:51.723] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Base
+[20Oct2025 10:24:51.749] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[20Oct2025 10:24:51.954] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/silver: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[20Oct2025 10:24:51.964] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/red: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:51.966] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/magenta: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:51.971] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/gray: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:51.977] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/cyan: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:51.997] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/white: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[20Oct2025 10:24:51.998] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/purple: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.000] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/FireworkRocketItem$Shape
+[20Oct2025 10:24:52.003] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/lime: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.005] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/yellow: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[20Oct2025 10:24:52.006] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.010] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dtrch:emr_summer_armor_helmet_recipe: com.google.gson.JsonSyntaxException: Unknown item 'dtrch:emr_summer_armor_helmet'
+[20Oct2025 10:24:52.012] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/pink: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[20Oct2025 10:24:52.016] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet: com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+[20Oct2025 10:24:52.020] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/black: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.021] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/green: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.024] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/brown: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.029] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/orange: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.030] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/light_blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[20Oct2025 10:24:52.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[20Oct2025 10:24:52.046] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/advancements/FrameType
+[20Oct2025 10:24:52.140] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2200 advancements
+[20Oct2025 10:24:52.143] [main/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[20Oct2025 10:24:52.147] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[20Oct2025 10:24:52.149] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[20Oct2025 10:24:52.187] [main/WARN] [ModernFix/]: Initial datapack load took 2.162 s
+[20Oct2025 10:24:52.280] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Oct2025 10:24:52.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Oct2025 10:24:52.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Oct2025 10:24:52.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Oct2025 10:24:52.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Oct2025 10:24:52.467] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Oct2025 10:24:52.544] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Oct2025 10:24:52.544] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Oct2025 10:24:52.544] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Oct2025 10:24:52.544] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Oct2025 10:24:52.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cuffed-server.toml is not correct. Correcting
+[20Oct2025 10:24:52.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cuffed Config.Anchoring Settings.Max Chain Length was corrected from 5.0 to its default, 5.0. 
+[20Oct2025 10:24:52.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cuffed Config.Anchoring Settings.Suffocation Length was corrected from 12.0 to its default, 12.0. 
+[20Oct2025 10:24:52.567] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/TeamUtils$TeamType
+[20Oct2025 10:24:52.577] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[20Oct2025 10:24:52.591] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/StructureModifier$Phase
+[20Oct2025 10:24:52.595] [Server thread/INFO] [Framework/]: Loading server configs...
+[20Oct2025 10:24:52.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Oct2025 10:24:52.756] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ModCheck$Confidence
+[20Oct2025 10:24:52.776] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/VillageSiege$State
+[20Oct2025 10:24:52.801] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/ticks/TickPriority
+[20Oct2025 10:24:52.812] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/storage/IOWorker$Priority
+[20Oct2025 10:24:52.822] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/Visibility
+[20Oct2025 10:24:52.823] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/PersistentEntitySectionManager$ChunkLoadStatus
+[20Oct2025 10:24:52.826] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/level/FullChunkStatus
+[20Oct2025 10:24:52.889] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/WorldgenRandom$Algorithm
+[20Oct2025 10:24:53.057] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/LightLayer
+[20Oct2025 10:24:53.140] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/lighting/LayerLightEventListener$DummyLightLayerEventListener
+[20Oct2025 10:24:53.149] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarColor
+[20Oct2025 10:24:53.150] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarOverlay
+[20Oct2025 10:24:53.152] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundBossEventPacket$OperationType
+[20Oct2025 10:24:53.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Oct2025 10:24:53.343] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/EmptyBlockGetter
+[20Oct2025 10:24:53.345] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction8
+[20Oct2025 10:24:53.391] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ca/spottedleaf/starlight/common/light/StarLightEngine$AxisDirection
+[20Oct2025 10:24:53.477] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy
+[20Oct2025 10:24:53.511] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[20Oct2025 10:24:54.169] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting melonslise/locks/common/util/Transform
+[20Oct2025 10:24:54.494] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 10:24:54.494] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 10:24:54.495] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 10:24:54.544] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SupportType
+[20Oct2025 10:24:54.553] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/AxisCycle
+[20Oct2025 10:24:54.604] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/LevelChunk$EntityCreationType
+[20Oct2025 10:24:54.685] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 10:24:55.171] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Oct2025 10:24:55.470] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/control/MoveControl$Operation
+[20Oct2025 10:24:55.662] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[20Oct2025 10:24:55.679] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityDialog
+[20Oct2025 10:24:55.680] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityQuest
+[20Oct2025 10:24:55.681] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumDayTime
+[20Oct2025 10:24:55.681] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityFactionType
+[20Oct2025 10:24:55.682] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityFaction
+[20Oct2025 10:24:55.683] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityScoreboard
+[20Oct2025 10:24:55.717] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumParts
+[20Oct2025 10:24:56.163] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[20Oct2025 10:24:56.584] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3424 ms
+[20Oct2025 10:24:56.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.028s)! For help, type "help"
+[20Oct2025 10:24:56.614] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
+[20Oct2025 10:24:56.614] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[20Oct2025 10:24:56.615] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[20Oct2025 10:24:56.615] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[20Oct2025 10:24:56.615] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[20Oct2025 10:24:56.615] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[20Oct2025 10:24:56.615] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[20Oct2025 10:24:56.616] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[20Oct2025 10:24:56.616] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[20Oct2025 10:24:56.616] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[20Oct2025 10:24:56.616] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[20Oct2025 10:24:56.616] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[20Oct2025 10:24:56.617] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[20Oct2025 10:24:56.617] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[20Oct2025 10:24:56.617] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[20Oct2025 10:24:56.617] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[20Oct2025 10:24:56.617] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[20Oct2025 10:24:56.618] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[20Oct2025 10:24:56.619] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[20Oct2025 10:24:56.619] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[20Oct2025 10:24:56.619] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[20Oct2025 10:24:56.619] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[20Oct2025 10:24:56.619] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[20Oct2025 10:24:56.619] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Oct2025 10:24:56.622] [Server thread/INFO] [com.podloot.eyemod.Eye/]: EyeMod loaded (Server)
+[20Oct2025 10:24:56.622] [Server thread/INFO] [cuffed/]: Running server setup for Cuffed
+[20Oct2025 10:24:56.641] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[20Oct2025 10:24:56.642] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[20Oct2025 10:24:56.661] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/PacketFlow
+[20Oct2025 10:24:56.671] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[20Oct2025 10:24:56.671] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[20Oct2025 10:24:56.672] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[20Oct2025 10:24:56.674] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/LogicalEnvironment
+[20Oct2025 10:24:56.678] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/Environment
+[20Oct2025 10:24:56.703] [Server thread/WARN] [ModernFix/]: Dedicated server took 26.199 seconds to load
+[20Oct2025 10:24:56.904] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/entity/ai/AIType
+[20Oct2025 10:24:56.964] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/AbortableIterationConsumer$Continuation
+[20Oct2025 10:24:56.976] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[20Oct2025 10:24:56.978] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/Team$CollisionRule
+[20Oct2025 10:24:56.988] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/blocks/components/ABlockBase$Axis
+[20Oct2025 10:24:57.004] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/sound/RadioManager$RadioSources
+[20Oct2025 10:24:57.005] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/entities/components/AEntityA_Base$EntityAutoUpdateTime
+[20Oct2025 10:24:57.011] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/rendering/RenderableData$LightingMode
+[20Oct2025 10:24:57.013] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/blocks/tileentities/components/RoadLane$LaneSelectionRequest
+[20Oct2025 10:24:57.051] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:24:57.052] [Server thread/ERROR] [mts/]: MTSERROR: Cannot invoke "minecrafttransportsimulator.items.components.IItemEntityProvider$IItemEntityFactory.restoreEntityFromData(minecrafttransportsimulator.mcinterface.AWrapperWorld, minecrafttransportsimulator.mcinterface.IWrapperNBT)" because the return value of "java.util.Map.get(Object)" is null
+[20Oct2025 10:24:57.065] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/profiling/metrics/MetricCategory
+[20Oct2025 10:24:57.166] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumScriptType
+[20Oct2025 10:24:57.720] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Block
+[20Oct2025 10:24:57.722] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[20Oct2025 10:24:57.723] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/phys/HitResult$Type
+[20Oct2025 10:25:32.248] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/ConnectionProtocol
+[20Oct2025 10:25:32.277] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action
+[20Oct2025 10:25:32.295] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundRecipePacket$State
+[20Oct2025 10:25:32.306] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/ServerScoreboard$Method
+[20Oct2025 10:25:32.318] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action
+[20Oct2025 10:25:32.319] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/HumanoidArm
+[20Oct2025 10:25:32.321] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickType
+[20Oct2025 10:25:32.324] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+[20Oct2025 10:25:32.331] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action
+[20Oct2025 10:25:32.333] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action
+[20Oct2025 10:25:32.335] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action
+[20Oct2025 10:25:32.337] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/CommandBlockEntity$Mode
+[20Oct2025 10:25:32.342] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType
+[20Oct2025 10:25:34.290] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/ConnectionType
+[20Oct2025 10:25:34.335] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+[20Oct2025 10:25:35.949] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/entity/base/IPrivacyOperand$PrivacyRestriction
+[20Oct2025 10:25:35.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:48433] logged in with entity id 682 at (-16.52175548254887, 65.0, -957.7329808863591)
+[20Oct2025 10:25:35.958] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/filters/VanillaPacketSplitter$RemoteCompatibility
+[20Oct2025 10:25:35.968] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+[20Oct2025 10:25:35.969] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/entity/monster/phantom/gunner/PhantomGunner$AttackPhase
+[20Oct2025 10:25:35.970] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/entity/monster/phantom/terror/TerrorPhantom$AttackPhase
+[20Oct2025 10:25:35.972] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/Phantom$AttackPhase
+[20Oct2025 10:25:35.991] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:25:36.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:25:36.075] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/RelativeMovement
+[20Oct2025 10:25:36.125] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:25:36.128] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/razorplay/invview_forge/util/InventoryLockManager$InventoryType
+[20Oct2025 10:25:36.168] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/advancements/AdvancementVisibilityEvaluator$VisibilityRule
+[20Oct2025 10:25:36.182] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/item/attachment/IAttachment$Type
+[20Oct2025 10:25:36.620] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:25:36.621] [Server thread/ERROR] [mts/]: MTSERROR: Cannot invoke "minecrafttransportsimulator.items.components.IItemEntityProvider$IItemEntityFactory.restoreEntityFromData(minecrafttransportsimulator.mcinterface.AWrapperWorld, minecrafttransportsimulator.mcinterface.IWrapperNBT)" because the return value of "java.util.Map.get(Object)" is null
+[20Oct2025 10:25:36.890] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkEvent$RegistrationChangeType
+[20Oct2025 10:25:38.421] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction
+[20Oct2025 10:25:38.422] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$AxisDirection
+[20Oct2025 10:25:38.423] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$Axis
+[20Oct2025 10:25:45.581] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[20Oct2025 10:26:28.760] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/RenderShape
+[20Oct2025 10:26:31.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Spectator Mode]
+[20Oct2025 10:26:46.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 104.000000, 79.000000, -8.000000]
+[20Oct2025 10:26:46.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack moved too quickly! 122.76078292620514,12.50493398055302,944.22894633403
+[20Oct2025 10:27:24.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 10:28:25.107] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:28:25.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:28:30.773] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:49755] logged in with entity id 1238 at (145.14810506291295, 65.43152384527073, 19.906590542435556)
+[20Oct2025 10:28:30.778] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:28:30.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:28:30.849] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:29:57.757] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:29:57.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:30:01.876] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:39027] logged in with entity id 1333 at (142.22772782998942, 65.0, 19.60884461045812)
+[20Oct2025 10:30:01.881] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:30:01.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:30:01.973] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:36:35.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 366.500000, 65.000000, 11.500000]
+[20Oct2025 10:36:35.079] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/entity/PrinterBlockEntity$State
+[20Oct2025 10:37:08.112] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:37:08.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:37:19.212] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1b24d304[id=<null>,name=Imranack,properties={},legacy=false] (/127.79.76.131:59283) lost connection: Disconnected
+[20Oct2025 10:37:26.013] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/FilterMask$Type
+[20Oct2025 10:37:26.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] ggg
+[20Oct2025 10:37:39.405] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@f8a92be[id=<null>,name=Imranack,properties={},legacy=false] (/127.79.76.131:38641) lost connection: Disconnected
+[20Oct2025 10:38:00.770] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:58039] logged in with entity id 1532 at (378.97103391972115, 65.0, 12.4901874015148)
+[20Oct2025 10:38:00.774] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:38:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:38:00.814] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:38:00.910] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:38:00.911] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 10:38:48.958] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@20582d04[id=<null>,name=Imranack,properties={},legacy=false] (/127.79.76.131:39127) lost connection: Timed out
+[20Oct2025 10:40:39.207] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:40:39.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:40:43.919] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:37663] logged in with entity id 1733 at (378.3207677698914, 65.0, 11.237500011920929)
+[20Oct2025 10:40:43.923] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:40:43.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:40:43.946] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:40:44.059] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:40:44.059] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 10:42:50.809] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:42:50.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:42:55.065] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:42085] logged in with entity id 1932 at (378.3207677698914, 65.0, 11.237500011920929)
+[20Oct2025 10:42:55.069] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:42:55.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:42:55.088] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:42:55.159] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:42:55.160] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 10:45:11.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:45:11.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:45:15.363] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:46961] logged in with entity id 2133 at (378.3207677698914, 65.0, 11.237500011920929)
+[20Oct2025 10:45:15.366] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:45:15.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:45:15.386] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:45:15.469] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:45:15.469] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 10:49:36.612] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 10:49:36.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 10:49:41.412] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:60957] logged in with entity id 2388 at (360.50716344704233, 65.0, 10.339119688394302)
+[20Oct2025 10:49:41.415] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 10:49:41.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 10:49:41.440] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 10:49:41.527] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 10:49:41.527] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 10:50:06.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 32.500000, 65.000000, 35.500000]
+[20Oct2025 11:00:13.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: You logged in from another location
+[20Oct2025 11:00:13.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:00:13.612] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[20Oct2025 11:00:13.614] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:55813] logged in with entity id 2626 at (29.473087863262364, 65.0, 40.24811022999269)
+[20Oct2025 11:00:13.618] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:00:13.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:00:13.656] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:01:24.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 173.500000, 65.000000, -170.500000]
+[20Oct2025 11:06:37.879] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting software/bernie/geckolib/core/object/PlayState
+[20Oct2025 11:06:37.880] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting software/bernie/geckolib/core/animation/AnimationController$State
+[20Oct2025 11:06:40.430] [Server thread/WARN] [jeg/]: literal{Imranack}(45c9e1f1-d058-34e4-b7ab-09049f609783) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[20Oct2025 11:06:40.430] [Server thread/WARN] [jeg/]: literal{Imranack}(45c9e1f1-d058-34e4-b7ab-09049f609783) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 95
+[20Oct2025 11:06:40.432] [Server thread/WARN] [jeg/]: literal{Imranack}(45c9e1f1-d058-34e4-b7ab-09049f609783) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 93
+[20Oct2025 11:06:40.433] [Server thread/WARN] [jeg/]: literal{Imranack}(45c9e1f1-d058-34e4-b7ab-09049f609783) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 93
+[20Oct2025 11:06:40.433] [Server thread/WARN] [jeg/]: literal{Imranack}(45c9e1f1-d058-34e4-b7ab-09049f609783) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 92
+[20Oct2025 11:06:58.457] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 11:06:58.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:07:02.515] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:45291] logged in with entity id 2846 at (163.70382968875268, 66.0, -146.0754239828413)
+[20Oct2025 11:07:02.518] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:07:02.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:07:02.544] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:08:33.810] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:08:33.811] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:10:50.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 236.000000, 65.000000, 225.000000]
+[20Oct2025 11:16:36.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 173.500000, 65.000000, -170.500000]
+[20Oct2025 11:17:20.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 219.500000, 65.000000, 237.500000]
+[20Oct2025 11:17:20.395] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack moved too quickly! 45.4678358581271,0.0,398.4487443820103
+[20Oct2025 11:17:20.511] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:17:20.511] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:17:31.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 11:17:31.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:17:34.013] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:33559] logged in with entity id 3619 at (219.5, 65.0, 237.5)
+[20Oct2025 11:17:34.016] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:17:34.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:17:34.033] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:17:34.107] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:17:34.107] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:18:42.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@CustomNPCs-Appia Caninnia Vetrua: Gave 10 [Raw Copper] to Imranack]
+[20Oct2025 11:23:13.311] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BBDE93[/127.79.76.131:56533] logged in with entity id 3694 at (458.53779940630585, 101.0, -520.9916553012719)
+[20Oct2025 11:23:13.313] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player BBDE93
+[20Oct2025 11:23:13.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 joined the game
+[20Oct2025 11:23:13.324] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{BBDE93}
+[20Oct2025 11:23:13.510] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:23:13.510] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:23:19.923] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.189.193.26:59499] logged in with entity id 4357 at (148.13762600133379, 65.0, 66.80224610357608)
+[20Oct2025 11:23:19.927] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[20Oct2025 11:23:19.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[20Oct2025 11:23:19.984] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[20Oct2025 11:23:55.514] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BBDE93 lost connection: Disconnected
+[20Oct2025 11:23:55.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 left the game
+[20Oct2025 11:25:37.757] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2a8e35c3[id=<null>,name=BBDE93,properties={},legacy=false] (/127.79.76.131:36927) lost connection: Disconnected
+[20Oct2025 11:25:40.807] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null lost connection: Disconnected
+[20Oct2025 11:25:40.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null left the game
+[20Oct2025 11:25:54.260] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.189.193.26:60339] logged in with entity id 4469 at (60.76888096581604, 65.0, 73.59887997073156)
+[20Oct2025 11:25:54.262] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[20Oct2025 11:25:54.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[20Oct2025 11:25:54.297] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[20Oct2025 11:25:57.461] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Steve[/127.233.141.208:44521] logged in with entity id 4484 at (100.5, 65.0, 28.5)
+[20Oct2025 11:25:57.463] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Steve
+[20Oct2025 11:25:57.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Steve joined the game
+[20Oct2025 11:25:57.504] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Steve}
+[20Oct2025 11:26:00.211] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BBDE93[/127.79.76.131:37197] logged in with entity id 4485 at (458.53779940630585, 101.0, -520.9916553012719)
+[20Oct2025 11:26:00.213] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player BBDE93
+[20Oct2025 11:26:00.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 joined the game
+[20Oct2025 11:26:00.224] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{BBDE93}
+[20Oct2025 11:26:00.362] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:26:00.362] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:26:28.880] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/UpgradeData$BlockFixers
+[20Oct2025 11:26:32.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 10.500000, 65.000000, 91.500000]
+[20Oct2025 11:26:32.696] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack moved too quickly! -222.91599085146942,-2.493907480229481,-128.80000001192093
+[20Oct2025 11:26:38.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[20Oct2025 11:27:00.517] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[20Oct2025 11:27:12.515] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:27:12.515] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:27:21.013] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 11:27:21.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:27:24.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:60785] logged in with entity id 6533 at (17.18413706554818, 69.0, 111.44782078032412)
+[20Oct2025 11:27:24.822] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:27:24.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:27:24.868] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:27:55.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported BBDE93 to Steve]
+[20Oct2025 11:28:13.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported BBDE93 to Steve]
+[20Oct2025 11:28:13.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BBDE93 moved too quickly! -123.99543433197532,0.0,-30.33551885662287
+[20Oct2025 11:28:32.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported 4 entities to Imranack]
+[20Oct2025 11:29:24.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BBDE93 lost connection: Disconnected
+[20Oct2025 11:29:24.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 left the game
+[20Oct2025 11:30:08.014] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/Player$BedSleepingProblem
+[20Oct2025 11:30:41.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Steve> hello
+[20Oct2025 11:31:21.561] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BBDE93[/127.79.76.131:32989] logged in with entity id 6897 at (18.652180780417535, 70.0, 105.68406484471477)
+[20Oct2025 11:31:21.563] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player BBDE93
+[20Oct2025 11:31:21.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 joined the game
+[20Oct2025 11:31:21.611] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{BBDE93}
+[20Oct2025 11:32:03.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: You logged in from another location
+[20Oct2025 11:32:03.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:32:03.913] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:46815] logged in with entity id 6907 at (32.30937542473831, 69.0, 108.77677105518472)
+[20Oct2025 11:32:03.916] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:32:03.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:32:03.961] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:32:47.907] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:32:47.908] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:33:36.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 11:34:25.459] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 11:34:25.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:34:38.766] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:60563] logged in with entity id 7147 at (8.300000011920929, 69.0, 110.48781081079426)
+[20Oct2025 11:34:38.768] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:34:38.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:34:38.807] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:35:02.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> [name:"Acheter Maison", x:354, y:65, z:-36, dim:minecraft:overworld]
+[20Oct2025 11:35:11.121] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/items/components/IItemEntityInteractable$CallbackType
+[20Oct2025 11:35:33.045] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packets/instances/PacketPartEngine$Signal
+[20Oct2025 11:36:27.733] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|3 ordinateur
+[20Oct2025 11:36:33.065] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|1 wifi
+[20Oct2025 11:36:37.287] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|1 imprimante
+[20Oct2025 11:36:49.751] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|et cables
+[20Oct2025 11:38:09.050] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[20Oct2025 11:38:45.032] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by BBDE93 -> BBDE93 to Imranack: BBDE93|VENER VITE
+[20Oct2025 11:38:52.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[20Oct2025 11:38:56.893] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by BBDE93 -> BBDE93 to Imranack: BBDE93|EN MA VOLER VENER A LV
+[20Oct2025 11:39:07.209] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: You logged in from another location
+[20Oct2025 11:39:07.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:39:07.217] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:58753] logged in with entity id 7854 at (49.567953701451884, 65.26310748900273, 76.04751063689541)
+[20Oct2025 11:39:07.219] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:39:07.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:39:07.262] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:40:37.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 116.500000, 65.000000, 31.500000]
+[20Oct2025 11:40:47.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Null to Imranack]
+[20Oct2025 11:41:09.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 11:41:40.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 300.500000, 65.000000, 42.500000]
+[20Oct2025 11:42:40.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null moved too quickly! 10.406952423406892,-0.04353562014750878,0.39721205382640523
+[20Oct2025 11:43:06.737] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Steve -> Steve to Imranack: Steve|800€
+[20Oct2025 11:44:19.421] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Null -> Null to Imranack: Null|salut 
+[20Oct2025 11:44:27.333] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Null -> Null to Imranack: Null|c'est ooù la mecécanique 
+[20Oct2025 11:44:36.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> [name:"Mechanique", x:32, y:65, z:35, dim:minecraft:overworld]
+[20Oct2025 11:45:00.209] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[20Oct2025 11:45:00.209] [Server thread/ERROR] [mts/]: MTSERROR: null
+[20Oct2025 11:45:28.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[20Oct2025 11:46:19.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@CustomNPCs-Appia Caninnia Vetrua: Gave 10 [Raw Copper] to BBDE93]
+[20Oct2025 11:46:31.659] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@711a2391[id=<null>,name=Steve,properties={},legacy=false] (/127.136.190.58:35105) lost connection: Disconnected
+[20Oct2025 11:46:35.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Steve lost connection: You logged in from another location
+[20Oct2025 11:46:35.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Steve left the game
+[20Oct2025 11:46:35.413] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Steve[/127.136.190.58:51621] logged in with entity id 8196 at (64.6357114948921, 65.0, -25.919662969736063)
+[20Oct2025 11:46:35.415] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Steve
+[20Oct2025 11:46:35.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Steve joined the game
+[20Oct2025 11:46:35.449] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Steve}
+[20Oct2025 11:48:22.615] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: You logged in from another location
+[20Oct2025 11:48:22.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:48:22.623] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:59737] logged in with entity id 8579 at (76.39185343305165, 64.99068750938277, -8.971179444377862)
+[20Oct2025 11:48:22.626] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:48:22.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:48:22.675] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:49:01.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack moved too quickly! -9.750349383678184,0.8176632334739509,2.428179323267514
+[20Oct2025 11:49:26.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 173.500000, 65.000000, -170.500000]
+[20Oct2025 11:49:26.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack moved too quickly! 96.50983174793329,0.0,-154.50261410401103
+[20Oct2025 11:49:30.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported BBDE93 to Imranack]
+[20Oct2025 11:50:28.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: You logged in from another location
+[20Oct2025 11:50:28.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 11:50:28.917] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:38645] logged in with entity id 9574 at (177.8190043589675, 65.0, -172.26253865808607)
+[20Oct2025 11:50:28.919] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 11:50:28.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 11:50:28.975] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 11:50:33.016] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Null -> Null to Imranack: Null|on doit chercher une voiture noir base
+[20Oct2025 11:50:54.720] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Null -> Null to Imranack: Null|vitee
+[20Oct2025 11:52:08.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 11:52:19.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[20Oct2025 11:54:24.723] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Null -> Null to Imranack: Null|j'ai rien trouvé depuis hier soir 
+[20Oct2025 11:56:28.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 233.000000, 65.000000, 232.000000]
+[20Oct2025 11:56:41.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported BBDE93 to Imranack]
+[20Oct2025 11:57:05.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 11:57:56.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Spectator Mode]
+[20Oct2025 11:58:02.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 11:58:06.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> [name:"Fauvettes", x:173, y:65, z:-171, dim:minecraft:overworld]
+[20Oct2025 11:59:55.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Spectator Mode]
+[20Oct2025 11:59:56.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[20Oct2025 12:00:59.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Imranack] TIR DE PISTOLET [POLICE]
+[20Oct2025 12:01:08.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> [x:221, y:65, z:232, dim:minecraft:overworld]
+[20Oct2025 12:01:14.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Imranack] TIR DE PISTOLET [POLICE]
+[20Oct2025 12:01:22.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> [x:221, y:65, z:232, dim:minecraft:overworld]
+[20Oct2025 12:01:35.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> [x:221, y:65, z:232, dim:minecraft:overworld]
+[20Oct2025 12:02:02.986] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|trop cher
+[20Oct2025 12:02:05.534] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|500€
+[20Oct2025 12:02:43.380] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to BBDE93: Imranack|T'est ou
+[20Oct2025 12:02:44.171] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Steve -> Steve to Imranack: Steve|nnon ses 800€
+[20Oct2025 12:03:01.886] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|600€
+[20Oct2025 12:03:04.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null moved too quickly! 3.5331960986539173,1.1661092609382138,9.403420877408237
+[20Oct2025 12:03:20.848] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Steve -> Steve to Imranack: Steve|6650€
+[20Oct2025 12:03:43.089] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|ok
+[20Oct2025 12:03:47.384] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|demain
+[20Oct2025 12:03:49.327] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Imranack -> Imranack to Steve: Imranack|je paye
+[20Oct2025 12:03:51.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BBDE93 lost connection: Disconnected
+[20Oct2025 12:03:51.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 left the game
+[20Oct2025 12:03:58.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null has made the advancement [Shutterbug]
+[20Oct2025 12:03:58.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Gave 1 [Camera] to Null]
+[20Oct2025 12:04:04.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Gave 64 [Paper] to Null]
+[20Oct2025 12:04:06.241] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Steve -> Steve to Imranack: Steve|ok
+[20Oct2025 12:04:29.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 10.500000, 65.000000, 91.500000]
+[20Oct2025 12:04:37.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Null to Imranack]
+[20Oct2025 12:04:37.397] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null moved too quickly! -121.61736633709677,0.0,205.9209143085074
+[20Oct2025 12:04:54.698] [Server thread/INFO] [com.podloot.eyemod.Eye/]: Data send by Steve -> Steve to Imranack: Steve|qa quelquelle heure 
+[20Oct2025 12:05:58.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 12:05:58.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 12:06:02.112] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:33545] logged in with entity id 11418 at (26.44779713800634, 69.0, 109.2758142869194)
+[20Oct2025 12:06:02.115] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 12:06:02.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 12:06:02.165] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 12:06:25.761] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BBDE93[/127.79.76.131:50109] logged in with entity id 11421 at (143.72442621414913, 65.5, 191.52635605464903)
+[20Oct2025 12:06:25.763] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player BBDE93
+[20Oct2025 12:06:25.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BBDE93 joined the game
+[20Oct2025 12:06:25.796] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{BBDE93}
+[20Oct2025 12:07:12.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 12:07:12.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 12:07:16.764] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:60437] logged in with entity id 11605 at (24.90280770472806, 69.0, 110.54523547110374)
+[20Oct2025 12:07:16.766] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 12:07:16.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 12:07:16.803] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 12:07:20.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@CustomNPCs-Arina: Teleported BBDE93 to 108.500000, 69.000000, 236.500000]
+[20Oct2025 12:08:35.460] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: You logged in from another location
+[20Oct2025 12:08:35.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 12:08:35.466] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:57327] logged in with entity id 11786 at (32.12842796200868, 69.0, 106.69999998807907)
+[20Oct2025 12:08:35.469] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 12:08:35.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 12:08:35.500] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 12:08:53.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[20Oct2025 12:09:03.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Gave 16 [Bread] to 4]
+[20Oct2025 12:09:42.212] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 12:09:42.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 12:09:46.263] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.79.76.131:54103] logged in with entity id 12013 at (30.855795482773093, 69.41999998688698, 95.30000001192093)
+[20Oct2025 12:09:46.266] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[20Oct2025 12:09:46.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[20Oct2025 12:09:46.299] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[20Oct2025 12:09:51.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null was killed
+[20Oct2025 12:09:51.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Killed Null]
+[20Oct2025 12:10:58.508] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Imranack lost connection: Disconnected
+[20Oct2025 12:10:58.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack left the game
+[20Oct2025 12:11:13.858] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@51615462[id=<null>,name=Imranack,properties={},legacy=false] (/127.79.76.131:59827) lost connection: Disconnected

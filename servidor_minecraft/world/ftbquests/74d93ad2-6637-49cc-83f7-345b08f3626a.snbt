@@ -1,0 +1,20 @@
+{
+	version: 1
+	uuid: "74d93ad2663749cc83f7345b08f3626a"
+	name: "NOCOM#74d93ad2"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: {
+		1556B2E94855D50F: 1759062038375L
+	}
+	completed: {
+		1556B2E94855D50F: 1759062038375L
+	}
+	claimed_rewards: { }
+	player_data: {
+		52bfc853be62470598bede5f3dbd921c: {
+			can_edit: 1b
+		}
+	}
+}

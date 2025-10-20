@@ -1,0 +1,15 @@
+{
+	id: "52bfc853-be62-4705-98be-de5f3dbd921c"
+	type: "player"
+	player_name: "Imranack"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Imranack"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFC459"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
